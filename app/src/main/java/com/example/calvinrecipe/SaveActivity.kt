@@ -92,10 +92,7 @@ class SaveActivity : AppCompatActivity() {
             binding.recipeEt.error = "Recipe Name must be more than 6 characters"
         }
         else{
-/*
-            var database = FirebaseDatabase.getInstance().reference
 
-            database.setValue("please work")*/
 
             //save to firebase
             var database = FirebaseDatabase.getInstance().getReference("recipes")
@@ -106,15 +103,6 @@ class SaveActivity : AppCompatActivity() {
 
             binding.recipeId.setText("$recipeId")
 
-/*            FirebaseDatabase.getInstance().reference.child("recipes").setValue(rec)
-                .addOnCompleteListener{
-                    Toast.makeText(this, "Data save correctly!", Toast.LENGTH_LONG).show()
-                }
-                .addOnSuccessListener {
-                    Toast.makeText(this, "Data PUSH ONLINE correctly!", Toast.LENGTH_LONG).show()
-                }.addOnFailureListener {
-                    Log.d("Error", "error: " + it.message)
-                }*/
 
             if (recipeId != null) {
                 database.child(recipeId).setValue(rec).addOnCompleteListener {

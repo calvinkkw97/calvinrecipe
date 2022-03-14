@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SaveActivity">
+    tools:context=".UpdateActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -16,11 +16,11 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:text="ADD A NEW RECIPE"
+            android:text="Edit Your Recipe"
             style="@style/TextAppearance.MaterialComponents.Headline4"/>
 
         <ImageView
-            android:id="@+id/addphotoIv"
+            android:id="@+id/updatephotoIv"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
@@ -28,13 +28,13 @@
             android:src="@drawable/ic_addphoto"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/recipeNameTil"
+            android:id="@+id/updaterecipeNameTil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp">
 
             <EditText
-                android:id="@+id/recipeNameEt"
+                android:id="@+id/updaterecipeNameEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -49,14 +49,14 @@
             android:layout_marginTop="15dp">
 
             <EditText
-                android:id="@+id/ingredientsEt"
+                android:id="@+id/updateingredientsEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:minLines="3"
                 android:maxLines="40"
-                android:isScrollContainer="true"
                 android:gravity="top|start"
+                android:isScrollContainer="true"
                 android:hint="Ingredients"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -68,7 +68,7 @@
             android:layout_marginTop="15dp">
 
             <EditText
-                android:id="@+id/recipeEt"
+                android:id="@+id/updaterecipeEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
@@ -79,18 +79,27 @@
                 android:hint="Recipe"/>
 
         </com.google.android.material.textfield.TextInputLayout>
+
         <Spinner
             android:layout_marginTop="15dp"
-            android:id="@+id/spinnerAddRecipeType"
+            android:id="@+id/updateSpinnerRecipeType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
-            android:id="@+id/saveBtn"
+            android:id="@+id/updateBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="save"
+            android:text="Save"
             android:layout_marginTop="50dp" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_marginTop="30dp" />
 
     </LinearLayout>
 

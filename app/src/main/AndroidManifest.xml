@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.calvinrecipe">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,11 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalvinRecipe">
         <activity
+            android:name=".ReadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
             android:name=".SaveActivity"
             android:exported="false" />
         <activity
             android:name=".MyRecipeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.MainPage" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />

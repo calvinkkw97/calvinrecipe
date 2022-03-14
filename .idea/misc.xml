@@ -3,12 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.123" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/drawable/ic_arrow.xml" value="0.123" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_save.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_my_recipe.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_read.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_save.xml" value="0.16" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/activity_update.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/item_recipe.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/update_dialog.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/layout/useritem.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/menu/user_menu.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CalvinRecipe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.123" />
       </map>
     </option>
   </component>
